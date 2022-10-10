@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 74.639 s <<< FAILURE! - in TestRunner.TestRunner
+Login Success(Login ToolsQA)  Time elapsed: 10.187 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Andreas-Aldito.local', ip: 'fe80:0:0:0:149d:8620:98ce:a7fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.2'
+Driver info: driver.version: RemoteWebDriver
+
+Login Failed - Username null(Login ToolsQA)  Time elapsed: 0.042 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "User Open browser again" is undefined. You can implement it using the snippet(s) below:
+
+@Given("User Open browser again")
+public void user_open_browser_again() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("User Access Tools QA")
+public void user_access_tools_qa() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Fill form username null and password valid")
+public void user_fill_form_username_null_and_password_valid() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Click button Login")
+public void user_click_button_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Failed Login")
+public void failed_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

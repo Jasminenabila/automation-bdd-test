@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner.TestRunner" time="74.639" tests="8" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jasmine/Downloads/automation-bdd-test/target/test-classes:/Users/jasmine/Downloads/automation-bdd-test/target/classes:/Users/jasmine/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/jasmine/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/jasmine/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/jasmine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jasmine/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/jasmine/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jasmine/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jasmine/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jasmine/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jasmine/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jasmine/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jasmine/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jasmine/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jasmine/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jasmine/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jasmine/Downloads/automation-bdd-test/target/surefire/surefirebooter14003895661404371574.jar /Users/jasmine/Downloads/automation-bdd-test/target/surefire 2022-09-14T14-06-30_273-jvmRun1 surefire4315526650482306962tmp surefire_010274630167074855524tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jasmine/Downloads/automation-bdd-test/target/test-classes:/Users/jasmine/Downloads/automation-bdd-test/target/classes:/Users/jasmine/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/jasmine/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/jasmine/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/jasmine/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/jasmine/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/jasmine/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jasmine/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/jasmine/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jasmine/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jasmine/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jasmine/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jasmine/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jasmine/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jasmine/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jasmine/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jasmine/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jasmine/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jasmine/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jasmine/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jasmine/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jasmine"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jasmine/Downloads/automation-bdd-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jasmine/Downloads/automation-bdd-test/target/surefire/surefirebooter14003895661404371574.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.2+9"/>
+    <property name="user.name" value="jasmine"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/jasmine/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5t/jwhkptc914l4cztc4t1r28zr0000gq/T/"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="/Users/jasmine/Downloads/automation-bdd-test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jasmine/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Login Success" classname="Login ToolsQA" time="10.187">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Andreas-Aldito.local&apos;, ip: &apos;fe80:0:0:0:149d:8620:98ce:a7fd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;11.0.2&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Andreas-Aldito.local', ip: 'fe80:0:0:0:149d:8620:98ce:a7fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.2'
+Driver info: driver.version: RemoteWebDriver
+</error>
+    <system-out><![CDATA[
+Scenario: Login Success                            &amp#27;[90m# src/test/resources/Features/Login.feature:2&amp#27;[0m
+current dir = /Users/jasmine/Downloads/automation-bdd-test
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m: User Open Browser&amp#27;[0m                        &amp#27;[90m# StepDef.Login.userOpenWebsite()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32m: User Access Tools QA&amp#27;[0m                      &amp#27;[90m# StepDef.Login.userAccess()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32m: User Fill Form Login valid and registered&amp#27;[0m &amp#27;[90m# StepDef.Login.userFillFormLoginValidAndRegistered()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32m: User Click button Login&amp#27;[0m                    &amp#27;[90m# StepDef.Login.userClickButtonLogin()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser logout&amp#27;[0m                                  &amp#27;[90m# StepDef.Login.userLogout()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31m: Successfully Login&amp#27;[0m                        &amp#27;[90m# StepDef.Login.successfullyLogin()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Andreas-Aldito.local', ip: 'fe80:0:0:0:149d:8620:98ce:a7fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at StepDef.Login.successfullyLogin(Login.java:41)
+	at ✽.: Successfully Login(file:///Users/jasmine/Downloads/automation-bdd-test/src/test/resources/Features/Login.feature:8)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 14961
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 14, 2022 2:06:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login Failed - Username null" classname="Login ToolsQA" time="0.042">
+    <error message="The step &quot;User Open browser again&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@Given(&quot;User Open browser again&quot;)&#10;public void user_open_browser_again() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@When(&quot;User Access Tools QA&quot;)&#10;public void user_access_tools_qa() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;User Fill form username null and password valid&quot;)&#10;public void user_fill_form_username_null_and_password_valid() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;User Click button Login&quot;)&#10;public void user_click_button_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Failed Login&quot;)&#10;public void failed_login() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step "User Open browser again" is undefined. You can implement it using the snippet(s) below:
+
+@Given("User Open browser again")
+public void user_open_browser_again() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("User Access Tools QA")
+public void user_access_tools_qa() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Fill form username null and password valid")
+public void user_fill_form_username_null_and_password_valid() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User Click button Login")
+public void user_click_button_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Failed Login")
+public void failed_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+Scenario: Login Failed - Username null                &amp#27;[90m# src/test/resources/Features/Login.feature:10&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mUser Open browser again&amp#27;[0m                       &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser Access Tools QA&amp#27;[0m                           &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser Fill form username null and password valid&amp#27;[0m &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser Click button Login&amp#27;[0m                         &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mFailed Login&amp#27;[0m                                   &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login success with data valid" classname="Orange HRM open source" time="23.523"/>
+  <testcase name="Login Failed with username null" classname="Orange HRM open source" time="16.813"/>
+  <testcase name="Login success on saucedemo" classname="Test" time="3.855"/>
+  <testcase name="Login success on saucedemo using scenario outline" classname="Test" time="4.552"/>
+  <testcase name="Login failed on saucedemo using scenario outline" classname="Test" time="2.972"/>
+  <testcase name="feature search on google successfully data found" classname="Search Google" time="12.269"/>
+</testsuite>

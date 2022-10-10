@@ -1,0 +1,648 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-14T07:06:31.303Z",
+        "line": 2,
+        "name": "Login Success",
+        "description": "",
+        "id": "login-toolsqa;login-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1836639000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": ": User Open Browser",
+            "match": {
+              "location": "StepDef.Login.userOpenWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5047158000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": ": User Access Tools QA",
+            "match": {
+              "location": "StepDef.Login.userAccess()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237186000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": ": User Fill Form Login valid and registered",
+            "match": {
+              "location": "StepDef.Login.userFillFormLoginValidAndRegistered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 908802000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": ": User Click button Login",
+            "match": {
+              "location": "StepDef.Login.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1962980000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logout",
+            "match": {
+              "location": "StepDef.Login.userLogout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Andreas-Aldito.local\u0027, ip: \u0027fe80:0:0:0:149d:8620:98ce:a7fd%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat StepDef.Login.successfullyLogin(Login.java:41)\n\tat ✽.: Successfully Login(file:///Users/jasmine/Downloads/automation-bdd-test/src/test/resources/Features/Login.feature:8)\n",
+              "duration": 10951000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": ": Successfully Login",
+            "match": {
+              "location": "StepDef.Login.successfullyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T07:06:41.434Z",
+        "line": 10,
+        "name": "Login Failed - Username null",
+        "description": "",
+        "id": "login-toolsqa;login-failed---username-null",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User Open browser again",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User Access Tools QA",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User Fill form username null and password valid",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User Click button Login",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Failed Login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login ToolsQA",
+    "description": "",
+    "id": "login-toolsqa",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-14T07:06:41.453Z",
+        "line": 9,
+        "name": "Login success with data valid",
+        "description": "",
+        "id": "orange-hrm-open-source;login-success-with-data-valid;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16044619000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User open url \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef.LoginOrangeHRM.userOpenUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1404267000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User input \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDef.LoginOrangeHRM.userInputAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5887385000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click button login",
+            "match": {
+              "location": "StepDef.LoginOrangeHRM.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168664000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be success login",
+            "match": {
+              "location": "StepDef.LoginOrangeHRM.userShouldBeSuccessLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T07:07:04.971Z",
+        "line": 18,
+        "name": "Login Failed with username null",
+        "description": "",
+        "id": "orange-hrm-open-source;login-failed-with-username-null;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14799618000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User open url \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef.LoginOrangeHRM.userOpenUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1898554000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User input \"\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDef.LoginOrangeHRM.userInputAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74940000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click button login",
+            "match": {
+              "location": "StepDef.LoginOrangeHRM.userClickButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32452000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be failed login",
+            "match": {
+              "location": "StepDef.LoginOrangeHRM.userShouldBeFailedLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange HRM open source",
+    "description": "",
+    "id": "orange-hrm-open-source",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginOrangeHRM.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-14T07:07:21.782Z",
+        "line": 2,
+        "name": "Login success on saucedemo",
+        "description": "",
+        "id": "test;login-success-on-saucedemo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3360597000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.LoginSauceDemo.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214831000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Input username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.LoginSauceDemo.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100950000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.LoginSauceDemo.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170251000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Should success login and redirected to homepage",
+            "match": {
+              "location": "StepDef.LoginSauceDemo.shouldSuccessLoginAndRedirectedToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T07:07:25.636Z",
+        "line": 14,
+        "name": "Login success on saucedemo using scenario outline",
+        "description": "",
+        "id": "test;login-success-on-saucedemo-using-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4071465000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.LoginSauceDemo.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217857000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Input username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.LoginSauceDemo.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101407000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.LoginSauceDemo.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156744000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Should success login and redirected to homepage",
+            "match": {
+              "location": "StepDef.LoginSauceDemo.shouldSuccessLoginAndRedirectedToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-14T07:07:30.188Z",
+        "line": 22,
+        "name": "Login failed on saucedemo using scenario outline",
+        "description": "",
+        "id": "test;login-failed-on-saucedemo-using-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2528598000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.LoginSauceDemo.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215019000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Input username \"standard_user\" and password \"xxxyyyzzzz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"xxxyyyzzzz\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.LoginSauceDemo.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74338000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.LoginSauceDemo.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149327000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Failed login and showing message",
+            "match": {
+              "location": "StepDef.LoginSauceDemo.failedLoginAndShowingMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginSauceDemo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-14T07:07:33.160Z",
+        "line": 2,
+        "name": "feature search on google successfully data found",
+        "description": "",
+        "id": "search-google;feature-search-on-google-successfully-data-found",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1230546000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Open browser",
+            "match": {
+              "location": "StepDef.SearchGoogle.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5619984000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open website Google",
+            "match": {
+              "location": "StepDef.SearchGoogle.openWebsiteGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28438000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Located on google website",
+            "match": {
+              "location": "StepDef.SearchGoogle.locatedOnGoogleWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5170711000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User search \"Jasmine Nabila Novel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jasmine Nabila Novel\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDef.SearchGoogle.iSearch(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213643000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Showing result related with \"Jasmine Nabila Novel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jasmine Nabila Novel\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDef.SearchGoogle.showingResultRelatedWith(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Google",
+    "description": "",
+    "id": "search-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchGoogle.feature",
+    "tags": []
+  }
+]
